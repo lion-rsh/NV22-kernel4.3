@@ -1,7 +1,7 @@
 L4T_32.2.3
 
-cd /home/lion/project/cpc1922/src/kernel-4.3/kernel/kernel-4.9
-TEGRA_KERNEL_OUT=/home/lion/project/cpc1922/src/cpc1922-kernelout4.3
+cd /home/lion/project/nv22/src/kernel-4.3/kernel/kernel-4.9
+TEGRA_KERNEL_OUT=/home/lion/project/nv22/src/nv22-kernelout4.3
 export CROSS_COMPILE=/home/lion/tools/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-
 make ARCH=arm64 O=$TEGRA_KERNEL_OUT tegra_defconfig
 make ARCH=arm64 O=$TEGRA_KERNEL_OUT -j4
