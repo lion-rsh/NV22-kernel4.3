@@ -27,7 +27,7 @@ sudo ./flash.sh -r -k kernel-dtb jetson-xavier mmcblk0p1  //烧写设备树文�
 
 +++++++++++++++++++++++++++++++++++++++++++++
 
-project name: CPC1922
+project name: NV22
 function:{
 	CAN for x2
 	miniPCIeCAN-II x2
